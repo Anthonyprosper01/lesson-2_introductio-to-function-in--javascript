@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="j1"></h1>
+    <button onclick="mul()">Get results</button>
+    <h2 id="j2"></h2>
+<button onclick="display()">Display</button>
+
+
+
+    <script>
+        var a= +prompt ("enter first value")
+        var b= +prompt ("enter second value")
+
+        function mul(){
+            var c= a*b;
+            document.getElementById("j1"). innerHTML= "The answer of " +a+ " and " +b+ " is " +c}
+
+var name = prompt("Enter your name")
+function display(){
+    document.getElementById("j2"). innerHTML = " Hello " + name 
+}
+    </script>
+</body>
+</html>
